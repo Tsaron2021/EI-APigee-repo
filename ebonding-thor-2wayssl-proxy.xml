@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="ebonding-thor-2wayssl-proxy">
+    <Basepaths>/ebonding-thor-2wayssl</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1630073452512</CreatedAt>
+    <CreatedBy>johnmule2021@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>ebonding-thor-2wayssl</DisplayName>
+    <LastModifiedAt>1630185324316</LastModifiedAt>
+    <LastModifiedBy>johnmule2021@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:19f70a99767a58d68516004fe7bbde10560581188060f938e854b73314a0a07df345244aaf3aecbd2eeee28debfd1644bf2cfb842a4486750f6fbaaf6f7bffce:us-east-1</ManifestVersion>
+    <Policies>
+        <Policy>2waySSLCallout</Policy>
+        <Policy>Access-Entity-1</Policy>
+        <Policy>Assign-Message-1</Policy>
+        <Policy>Basic-Authentication-1</Policy>
+        <Policy>ExdeveloperAppCustom</Policy>
+        <Policy>RF-password-doesnt-match</Policy>
+        <Policy>RequestPerJsonThreat</Policy>
+        <Policy>RequestPostJsonThreat</Policy>
+        <Policy>Spike-Arrest-1</Policy>
+        <Policy>Threat-Protection-sharedFlow</Policy>
+        <Policy>XML-to-JSON-1</Policy>
+        <Policy>getdeveloperApp</Policy>
+        <Policy>iterate-attributes</Policy>
+        <Policy>printpayload</Policy>
+        <Policy>updateMustunderstandAttrib</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>xsl://updateMustunderstandAttrib.xsl</Resource>
+        <Resource>jsc://RequestPerJsonThreat.js</Resource>
+        <Resource>jsc://RequestPostJsonThreat.js</Resource>
+        <Resource>jsc://iterate-attributes.js</Resource>
+        <Resource>jsc://printpayload.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
