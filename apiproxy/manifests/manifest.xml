@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="2waySSLCallout" version="SHA-512:6de5c008670f3da5ec29501abafb8c62b8d4cdc9114ffdf31c6041b5512c882e2786e477ff0174188b0569143c33137bf3339919fe0dfaea8d6350202b0f3a1c"/>
+        <VersionInfo resourceName="Access-Entity-1" version="SHA-512:a93d2f3043e611018641f92dc4d853300bf2f0eaf14b2111625446d0ed77f573917c9dd6fb8ec38e0f5d5cb27239d5560a78672ed89f68cbd5371ee8eb19217d"/>
+        <VersionInfo resourceName="Assign-Message-1" version="SHA-512:766c0361f3008d580dc34671bf8c6e94ada95131038df596bb06cf00b142ba35c922dde2881e3f3f5d18278ffa9f7acb39ca07b18282e664c0088fe72d11b626"/>
+        <VersionInfo resourceName="Basic-Authentication-1" version="SHA-512:2a617695d5a588fc687474d1db65ae7e5204f45f263693d4a7c5649d59fda0e294b8d50c952233974b28f1a47d7109c586eb57b5e1e2a659efd6e208005b786f"/>
+        <VersionInfo resourceName="ExdeveloperAppCustom" version="SHA-512:9ceb18f0a46ce5e2a832e1049ff93598048275885504e136fe4c3ed264fbc468e6c42026e484b85e5d4229f7908c013dc31ce74f55bdc80c8b0595b18c12c2e1"/>
+        <VersionInfo resourceName="RF-password-doesnt-match" version="SHA-512:cbb0cc8f100364597574194490aa9ff76aa276eafd3af0c63d2f1154b4e8cbbb8d2297512d5e6e38f5c829f36ecab353f5990a953188665c1cb310e014143ab1"/>
+        <VersionInfo resourceName="RequestPerJsonThreat" version="SHA-512:8b3f320969326b71e07552285f00d2c59184079cad5b8579b356f66619f7ac37ed44413901a47fea9270f94819d29da52d07e7312b70b98509f226b87a418ac6"/>
+        <VersionInfo resourceName="RequestPostJsonThreat" version="SHA-512:0aad71c1927ffe563ab7aa8e03d106cbd48f123aa4e1af0a3033fce901acb999c4b2a2e34de485520950955d7d2b4502fa97a663803b7279e7e7f1a72ceb6840"/>
+        <VersionInfo resourceName="Spike-Arrest-1" version="SHA-512:4d5b215cc0de6121a0af964ed9b5a923502c37fdf680450ed9d5614502dd1ceea37b9f1aec1a6b4c8377d76aab607caac505b4cc00d57068057e50dc6acc3d10"/>
+        <VersionInfo resourceName="Threat-Protection-sharedFlow" version="SHA-512:dc67f5fef9211d523ea76486602a3bfcd0a504d1dde7a7efb1f57408ce0f882834f2ff6828552634afeb9c4ea34c6b154ed74845811f71a42aee4ed1713f3e54"/>
+        <VersionInfo resourceName="XML-to-JSON-1" version="SHA-512:13c1cfa00f3081b7114ed5281495518b2d029f178f36f76146b10756adb424895439101a65e133dea22cacdedc88c64dcc3f575c2e7c33db98f9f86ac6f58a8f"/>
+        <VersionInfo resourceName="getdeveloperApp" version="SHA-512:98df566679d7ad56a56835ab3b831c8c3cd8972c41f4ec86f82cc0d590e9732dca2bb4f7d9fc8634cebe2f5d56e8c331fbc7dd137e97e30f6862187aef0136f5"/>
+        <VersionInfo resourceName="iterate-attributes" version="SHA-512:cb1557485257f8339bae85c2e4e688956c5f478072766681f3a9cc300f0e7001267c9a13bd4effd554ecf3488299424d81765c0bb5cdd1cf0ce88c5bd027bb6c"/>
+        <VersionInfo resourceName="printpayload" version="SHA-512:e6cc159223f0081dc48c2da40389568b9f1acc45a1fdd4f6731cf765b8312c6fea7654f39fcaa7de91926f58c3060b02e436b356266e614785da56d1eaa10a68"/>
+        <VersionInfo resourceName="updateMustunderstandAttrib" version="SHA-512:0a92e2c89a5a469dc69d09498a9998a01e67fa5b87b8bce32bfc84e4f6a28642fd115500e14957d77ea81d1c7f436080d21f1da2d4232b56a2bfeac9af605b9c"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:99fe6fe4ed5d6b293b3fa82eb5c37aaa711e284a6fe5f3cb8269d2cb75ec9084525cd49b19ee81ec9f260f9d95ac854aa4b54d886cda42f28409aa55269abc81"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://RequestPerJsonThreat.js" version="SHA-512:b90a274cd5d50891c00b818f8f2badb93b05e7dc2c59f2e388c5630da0473052be2ecd2ac1d32d0792d92788f61cf60a39e47072e041e417435987750046c3b4"/>
+        <VersionInfo resourceName="jsc://RequestPostJsonThreat.js" version="SHA-512:c8574826ac09f4af36309fd6bd35ad9e5390203287b9e9d454bfa829fed7f4a8493335cdeb0f19c717e1f6749f1c2a598693cc48d6f3a389458c53d7fec9a3bd"/>
+        <VersionInfo resourceName="jsc://iterate-attributes.js" version="SHA-512:8226a4973a7b8cd3977a6f93959a28ae27804d86a2ee02ca941274c4f37505f8eeaeda97cc4266fc69c3a7378eb918dd7dff7c09152046b1dad103d1c43da3a4"/>
+        <VersionInfo resourceName="jsc://printpayload.js" version="SHA-512:7a009d1a154b553a390141498dd3a582e1c74dae075ec2379b261c1ec14b503727557338f1ef4d8355e2c305fa14e1492d0cd406ed4d4217757075acc225e6db"/>
+        <VersionInfo resourceName="xsl://updateMustunderstandAttrib.xsl" version="SHA-512:bb16d336d2918a0318d2c8e96b4910eb7f7854a675b6f292ca470db0c3c8d444a35e1185dc2de18e24401bea8482a68eed345dfd578dbab4c5a8dc180751285b"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:a48a57e6c25786ef349d87745e96d08d1c95f2b612d24382a07f890643a27df2688c782c2cef20c6073887c6acf29b20c666e3c8f0a7c6730db02efef0dd95f1"/>
+    </TargetEndpoints>
+</Manifest>

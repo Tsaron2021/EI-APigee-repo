@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AccessEntity continueOnError="false" enabled="true" name="getdeveloperApp">
+    <DisplayName>getdeveloperApp</DisplayName>
+    <Properties/>
+    <EntityType value="app"/>
+    <EntityIdentifier ref="customer.username" type="consumerKey"/>
+</AccessEntity>

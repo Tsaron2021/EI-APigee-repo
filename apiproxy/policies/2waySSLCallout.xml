@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FlowCallout async="false" continueOnError="false" enabled="true" name="2waySSLCallout">
+    <DisplayName>2waySSLCallout</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <SharedFlowBundle>2wayssl-check-sharedflow</SharedFlowBundle>
+</FlowCallout>

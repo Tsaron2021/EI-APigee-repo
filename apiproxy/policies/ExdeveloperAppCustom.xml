@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables continueOnError="false" enabled="true" name="ExdeveloperAppCustom">
+    <DisplayName>ExdeveloperAppCustom</DisplayName>
+    <Properties/>
+    <Source>jsonDevApp</Source>
+    <VariablePrefix>app</VariablePrefix>
+    <JSONPayload>
+        <Variable name="consumerKey">
+            <JSONPath>$.App.Credentials.Credential.Consumerkey</JSONPath>
+        </Variable>
+        <Variable name="secretKey">
+            <JSONPath>$.App.Credentials.Credential.ConsumeSecret</JSONPath>
+        </Variable>
+        <Variable name="attributes" type="nodeset">
+            <JSONPath>$.App.Attributes.Attribute</JSONPath>
+        </Variable>
+        <Variable name="name">
+            <JSONPath>$.App.name</JSONPath>
+        </Variable>
+    </JSONPayload>
+</ExtractVariables>
